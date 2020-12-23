@@ -1,0 +1,152 @@
+
+/* THIS PART UNDERNEATH IS RELATED TO THE SIGNUP-LOGIN */
+
+.validate-register-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #fff;
+  }
+  
+.validate-register-bg-div{
+    width: 70%;
+    background: url("../../images/featured.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.signup-login-div{
+    width: 30%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -2px 0px 5px -5px rgba(0,0,0,0.69);
+    -moz-box-shadow: -2px 0px 5px -5px rgba(0,0,0,0.69);
+    box-shadow: -2px 0px 5px -5px rgba(0,0,0,0.69);
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+  }
+  
+  
+.signup-login-div button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #af0606;
+    color: #fff;
+    transition: all 300ms ease;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+.signup-login-div button:focus {
+    outline: none;
+  }
+  
+.signup-login-div button:hover {
+    transform: translateY(-7px);
+  }
+  
+.signup-login-div a{
+    text-decoration: none;
+  }
+  
+.name-div, .phone-div, .password-div{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+.signup-login-div h1{
+    cursor: context-menu;
+  }
+  
+input{
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+  }
+  
+input:focus{
+    outline: none;
+  }
+  
+.issue-div{
+    height: 60px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center; 
+  }
+
+.issue-div p{
+    margin-left: 4px;
+  }
+
+.show-password-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.show-password-div > label {
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 414px) {
+    h1{
+      font-size: 2.5rem;
+    }  
+    .validate-register-container{
+      display: block;
+      background: url("../../images/featured.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .validate-register-bg-div{
+      display: none!important; }
+
+    .signup-login-div{
+      box-shadow: none;
+      width: 100% !important;
+      min-width: 100% !important;      
+
+    }
+    .signup-login-div button{
+      width: 160px;
+      height: 35px;      
+      font-size: 0.8rem;
+    }
+    .name-div, .phone-div, .password-div{
+      height: 90px; }
+    
+    input{
+        height: 30px;
+        background-color: transparent;
+        border-bottom: 2px solid black;
+        font-size: 1.1rem;        
+        font-family: "Kanit", sans-serif;
+        color: #000;
+    }
+    
+    .show-password-div > label {
+      font-weight: 500;
+      font-size: 1.3rem;
+    }
+    .show-password-div input {
+      margin-right: 10px;
+      width: 20px;
+    }
+    .issue-div p{
+      font-weight: 700;
+      font-size: 1.3rem;
+    }
+  }

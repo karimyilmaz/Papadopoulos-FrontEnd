@@ -1,0 +1,81 @@
+.sweet-div{
+    height: 650px;
+    /* max-height: 650px; */
+}
+
+.sweet-div-title{
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.ar{
+    font-family: 'Lalezar', cursive;
+}
+
+.sweets-div{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.sweets-div-cards{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ 
+@media only screen and (max-width: 1080px) {
+    .sweets-div-cards{
+        width: 900px;
+    }
+}
+ 
+@media only screen and (max-width: 979px) {
+    .sweets-div-cards{
+        width: 850px;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .sweet-div{
+        height: 1200px;
+    }
+    .sweets-div-cards{
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+    .sweets-div-cards .card:nth-child(3){
+        margin-top: 165px;
+    }
+
+}
+
+
+@media only screen and (max-width: 617px) {
+    .sweet-div{
+        height: 1800px;
+    }
+    .sweets-div-cards{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+    .sweets-div-cards .card:nth-child(2), 
+    .sweets-div-cards .card:nth-child(3){
+        margin-top: 165px;
+    }
+} 
+
+
+

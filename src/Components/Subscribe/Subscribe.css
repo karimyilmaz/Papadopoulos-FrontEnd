@@ -1,0 +1,35 @@
+.subscribe-div{
+    color: #fff;
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 500;
+    width: 220px;
+}
+
+.subscribe-div-content{
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+}
+
+.subscribe-div-content input{
+    width: 120px;
+    /* width: 170px; */
+    height: 30px;
+    max-width: auto;
+    border: 2px solid #fff ;
+    border-radius: 3px;
+    background: transparent;
+    color: #fff;
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 300;
+}
+
+.subscribe-div-content input:focus{
+    outline: none;
+    width: 170px; 
+}
+
+.subscribe-div-content svg{
+    cursor:pointer;
+    margin-left: 5px;
+}

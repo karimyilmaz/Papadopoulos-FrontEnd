@@ -1,0 +1,43 @@
+.btn{
+    width: 150px;
+    padding: 11px;
+    border: none;
+    /* border-radius: 25px; */
+    cursor: pointer;
+    font-family: 'Kanit' , sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background: #d35400;
+}
+.btn-ar{
+    width: 150px;
+    padding: 11px;
+    border: none;
+    /* border-radius: 25px; */
+    cursor: pointer;
+    font-family: 'Lalezar', cursive;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background: #d35400;
+}
+
+.btn:focus, .btn-ar:focus{
+    outline: none;
+}
+
+button{
+    transition: transform .5s;
+}
+button:hover{
+    transform:  translateX(10px);
+}
+/* 
+.btn-blue{
+    background: #3498db;
+    color: #fff;
+}
+
+.btn-yellow{
+    background: rgb(255,255,0);
+    color: black;
+} */

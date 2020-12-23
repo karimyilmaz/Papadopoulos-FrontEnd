@@ -1,0 +1,218 @@
+.hero-section{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    z-index: 50;
+    font-family:  'Kanit' , sans-serif;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ar {
+    font-family: 'Lalezar', cursive;
+} 
+
+.hero-section > div{
+    width: 1000px;
+}
+
+.hero-section div:nth-child(1){
+    font-size: 3rem;
+    
+}
+
+.hero-section div:nth-child(2){
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.shadow-div-en{
+    width: 840px;
+    box-shadow: 12px 10px 1px 3px rgb(255,255,0);
+}
+
+.shadow-div-ar {
+    width: 840px;
+    box-shadow: 12px 10px 1px 3px rgb(255,255,0);
+    transition: width 3s;
+}
+
+.shadow-div-ar-collapse {
+    width: 500px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .hero-section > div{
+        width: 900px;
+    }
+}
+ 
+@media only screen and (max-width: 979px) {
+    .hero-section > div {
+    width: 850px;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .hero-section > div {
+        width: 800px;
+    }
+    
+    .shadow-div-en{
+        width: 790px;
+    }
+        
+    .hero-section div:nth-child(1){
+        font-size: 2.8rem;
+        
+    }
+
+    .hero-section div:nth-child(2){
+        font-size: 1.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 886px) {
+    .hero-section > div {
+        width: 770px;
+    }
+    .shadow-div-en{
+        width: 750px;
+    } 
+
+    .shadow-div-ar{
+        width: 500px;
+    }
+    
+    .hero-section div:nth-child(1){
+        font-size: 2.7rem;
+        
+    }
+
+    .hero-section div:nth-child(2){
+        font-size: 1.7rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 822px) {
+        .hero-section > div {
+            width: 600px;
+        }
+        .shadow-div-en{
+            width: 540px;
+        } 
+        
+        .shadow-div-ar{
+            width: 500px;
+        }
+            
+        .hero-section div:nth-child(1){
+            font-size: 2.5rem;
+            
+        }
+    
+        .hero-section div:nth-child(2){
+            font-size: 1.6rem;
+        }
+    
+            
+}  
+
+ @media only screen and (max-width: 687px) {
+    
+        .hero-section > div {
+            width: 500px;
+        }
+        .shadow-div-en{
+            width: 440px;
+        }
+        .shadow-div-ar{
+            width: 440px;
+        }
+        .shadow-div-ar-collapse{
+            width: 440px;
+        }
+             
+
+        .hero-section div:nth-child(1){
+            font-size: 2.4rem;
+            
+        }
+    
+        .hero-section div:nth-child(2){
+            font-size: 1.5rem;
+        }
+  
+    } 
+
+
+@media only screen and (max-width: 563px) {
+        .hero-section > div {
+            width: 400px;
+             }
+        .shadow-div-en{
+            width: 330px;
+        }
+
+        .shadow-div-ar, .shadow-div-ar-collapse{
+            width: 330px;
+        }
+            
+        .hero-section div:nth-child(1){
+            font-size: 2.3rem;
+            
+        }
+    
+        .hero-section div:nth-child(2){
+            font-size: 1.4rem;
+        }
+  
+    }
+
+@media only screen and (max-width: 447px) {
+        .hero-section > div {
+            width: 330px;
+             }
+        .shadow-div-en, .shadow-div-ar, .shadow-div-ar-collapse{
+            width: 240px;
+        }
+            
+  
+    }
+
+@media only screen and (max-width: 320px) {
+        .hero-section > div {
+            width: 260px;
+             }
+        
+        .hero-section div:nth-child(1){
+            font-size: 2.1rem;
+            
+        }
+    
+        .hero-section div:nth-child(2){
+            font-size: 1.2rem;
+        }            
+  
+    }    
+    
+
+
+.whatsapp{
+    width:45px;
+    height:45px;
+    position: fixed;
+    top: 85%;
+    right: 4%; 
+    z-index: 200;  
+}
+
+.whatsapp > a >svg {
+    cursor: pointer;
+}

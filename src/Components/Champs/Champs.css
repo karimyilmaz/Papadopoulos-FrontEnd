@@ -1,0 +1,85 @@
+.champs-div{
+    height: 650px;
+}
+
+.monthly-champs-div{
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.monthly-champs-div-ar{
+    font-family: 'Lalezar', cursive;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 45px;
+}
+
+
+.cards-div{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-div-cards{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+ 
+@media only screen and (max-width: 1080px) {
+    .cards-div-cards{
+        width: 900px;
+    }
+
+}
+
+@media only screen and (max-width: 979px) {
+    .cards-div-cards{
+        width: 850px;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .champs-div{
+        height: 1200px;
+    }
+    .cards-div-cards{
+        width: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+    .cards-div-cards .card:nth-child(3){
+        margin-top: 165px;
+    }
+
+}
+
+
+@media only screen and (max-width: 617px) {
+    .champs-div{
+        height: 1800px;
+    }
+    .cards-div-cards{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+    .cards-div-cards .card:nth-child(2), 
+    .cards-div-cards .card:nth-child(3){
+        margin-top: 165px;
+    }
+}

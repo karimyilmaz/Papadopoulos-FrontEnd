@@ -1,0 +1,30 @@
+
+.login-form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 250px;
+}
+
+@media only screen and (max-width: 414px) {
+    .login-form-div{
+        height: 400px;
+        font-size: 1.5rem;
+    }
+    #dont-have-account{
+        font-size: 1.1rem;
+    }
+}
+/* 
+@media only screen and (max-height: 568px) {
+    .signup-form-div{
+        height: 360px;
+    }
+
+} */
+
+#ar {
+    font-family: 'Lalezar', cursive;
+    
+}

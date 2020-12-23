@@ -1,0 +1,240 @@
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    z-index: 100;
+}
+
+.nav-bg {
+    background-color: #DD1F13;
+}
+
+.nav-bg-trans {
+    background-color: transparent;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1000px;
+    height: 60px;
+}
+
+.logo a, .logo-ar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 800;
+}
+
+.logo-ar a{
+    font-family: 'Lalezar', cursive;
+    font-size: 1.5rem;
+}
+
+/* .logo a:hover {
+    color: rgb(255,255,0);
+} */
+
+.navigation-items{
+    margin: 0px;
+    display: flex;
+    list-style-type: none;
+}
+/* navigation-welcome-cart-ar */
+.navigation-items-ar{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 40px;
+    padding-left: 0%;
+    width: 380px;    
+}
+
+.navigation-items a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 800;
+}
+
+.navigation-items-ar a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lalezar', cursive;
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+}
+
+
+/* .navigation-items a:nth-child(4){
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Lalezar', cursive;
+    
+} */
+
+/* .navigation-items a:hover{
+    color: rgb(255,255,0);
+
+}
+
+.navigation-items a:focus{
+    color: rgb(255,255,0);
+
+} */
+
+
+
+.navigation-item{
+    margin-right: 11px;
+}
+
+.navigation-item:nth-child(4){
+    margin-right: 0px;
+
+}
+
+.navigation-signin-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 163px;
+}
+.navigation-signin-cart-ar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: auto;
+    width: 200px;
+}
+
+
+.navigation-welcome-cart-ar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    width: 200px;
+    font-size: 1.5rem;
+}
+.navigation-welcome-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 250px;
+}
+
+
+
+.toggle-button-div{
+    margin-left: auto;
+}
+
+.toggle-button-div-ar{
+    margin-right: auto;
+}
+
+.navigation-signin a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kanit' , sans-serif;
+    font-weight: 800;
+}
+
+
+
+.navigation-signin-ar a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lalezar', cursive;
+    font-size: 1.5rem;
+    
+}
+
+.navigation-signin-cart, .navigation-signin-cart-ar svg:hover{
+    cursor: pointer;
+}
+
+.navigation-signin a:hover, .logo a:hover, .navigation-items a:focus, .navigation-items a:hover,
+.navigation-signin-ar a:hover, .logo-ar a:hover, .navigation-items-ar a:focus, .navigation-items-ar a:hover
+{
+    color: rgb(255,255,0);
+    
+}
+
+@media only screen and (max-width: 1080px) {
+    .navigation-bar {
+    width: 900px;
+    }
+}
+
+@media only screen and (max-width: 979px) {
+    .navigation-bar {
+    width: 850px;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .navigation-bar {
+    width: 800px;
+    }
+}
+
+@media only screen and (max-width: 886px) {
+    .navigation-bar {
+    width: 770px;
+    }
+
+    nav {
+    font-size: 1.1rem;
+
+    }
+}
+
+@media only screen and (max-width: 822px) {
+    .navigation-bar {
+        width: 600px;
+        }
+} 
+
+@media only screen and (max-width: 687px) {
+    .navigation-bar {
+        width: 500px;
+        }
+} 
+
+
+@media only screen and (max-width: 563px) {
+    .navigation-bar {
+        width: 400px;
+        }
+} 
+
+/* iphone 6/7/8 */
+@media only screen and (max-width: 447px) {
+    .navigation-bar {
+        width: 330px;
+        }
+} 
+
+@media only screen and (max-width: 358px) {
+    .navigation-bar {
+        width: 280px;
+        }
+}
+
+@media only screen and (max-width: 320px) {
+    .navigation-bar {
+        width: 260px;
+        }
+} 
+
